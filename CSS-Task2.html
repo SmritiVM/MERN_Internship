@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS_Task2</title>
+    <style>
+        p{
+            font-family: "Calibri";
+            font-weight: bold;
+        }
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            border: 1px solid #555;
+        }
+
+        #i1{
+            width: 100px;
+            background-color: skyblue;
+        }
+
+        .vertical a{
+            display: block;
+            color: blue;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+
+        .vertical a:hover{
+            background-color: orange;
+            color: white;
+        }
+
+        #i2{
+            overflow: hidden;
+            background-color: lightgray;
+        }
+
+        .horizontal {
+            float: left
+        }
+
+        .horizontal a{
+            display: block;
+            color: blue;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .horizontal a:hover{
+            background-color: gray;
+            color: white;
+        }
+
+
+    </style>
+</head>
+<body>
+    <p>Vertical Navigation Bar</p>
+    <ul id = i1>
+        <li class = vertical><a href = "#">Home</a></li>
+        <li class = vertical><a href = "#">Java</a></li>
+        <li class = vertical><a href = "#">CSS</a></li>
+        <li class = vertical><a href = "#">HTML</a></li>
+        <li class = vertical><a href = "#">Bootstrap</a></li>
+    </ul>
+
+    
+    <p>Horizontal Navigation Bar</p>
+    <ul id = i2>
+        <li class = horizontal><a href = "#">Home</a></li>
+        <li class = horizontal><a href = "#">Java</a></li>
+        <li class = horizontal><a href = "#">CSS</a></li>
+        <li class = horizontal><a href = "#">HTML</a></li>
+        <li class = horizontal><a href = "#">Bootstrap</a></li>
+    </ul>
+
+    
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS_Task4</title>
+    <style>
+        #SideNav a{
+            position: absolute;
+            left: -80px;
+            transition: 0.3s; /* adding transition on hover */
+            padding: 15px;
+            width: 100px;
+            text-decoration: none; /* remove underline*/
+            font-size: 20px;
+            color: white;
+            border-radius: 0 5px 5px 0; /* rounding the corners of right side */
+        }
+
+        #SideNav a:hover{
+            left: 0; /* On mouse-over, make the elements appear as they should */
+        }
+
+        #about{
+            top: 20px; /* distance from top */
+            background-color: #04AA6D; /* green */
+        }
+
+        
+        #blog{
+            top: 80px; /* distance from top */
+            background-color: #2196F3; /* blue */
+        }
+
+        #projects{
+            top: 140px; /* distance from top */
+            background-color: #f44336; /* red */
+        }
+
+        #contact{
+            top: 200px; /* distance from top */
+            background-color: #555; /* grey */
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id = "SideNav" class = "sidenavbar">
+        <a href = "#" id = "about">About</a>
+        <a href = "#" id = "blog">Blog</a>
+        <a href = "#" id = "projects">Projects</a>
+        <a href = "#" id = "contact">Contact</a>
+
+    </div>
+
+    <div style="margin-left:80px">
+        <h2>Hoverable Sidenav Buttons</h2>
+        <p>Hover over the buttons in the left side navigation to open them.</p>
+    </div>
+</body>
+</html>
